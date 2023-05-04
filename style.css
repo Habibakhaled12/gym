@@ -1,0 +1,74 @@
+body{
+    background-image:url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg");
+    background-size: cover, contain;
+    background-position: center;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat
+    
+ }
+ .fn,
+ .ge
+ {
+        
+    line-height:1.6;
+ }
+ .sel{
+   word-spacing:1.3px;
+ }
+ 
+ 
+ .butt
+ {
+     
+ }
+ 
+      h1{
+   color:white;
+   padding:10px;
+         margin:10px;  
+             
+   
+ }
+     h3{
+       color:white;
+       padding:10px;
+         margin:10px;  
+             
+       text-shadow:1px 1px 1px yellowgreen;
+       
+           
+     }
+   span
+   {
+     
+          /* width:90%;
+         margin:auto;
+         margin-left:auto;
+         margin-top :auto;
+         margin-right:auto;
+         margin-bottom:auto;*/
+         
+         ;
+   }
+   label{
+     color:white;
+     /*border-width:2px;
+     border-color:anchor;
+       border-style:solid;*/
+      
+     
+   }
+   
+   .fn,
+   .ge,
+   .sel,
+   .butt
+   {
+     
+     padding:10px;
+        width:5%;
+      
+     text-transform:capitalize;
+     font-size:17px;
+   }

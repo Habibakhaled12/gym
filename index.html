@@ -1,0 +1,101 @@
+<html>
+<head>
+<link rel="stylesheet"type="text/css" href="style.css">
+<title>
+fitness &gym clup
+</title>
+</head>
+<body>
+<div>
+<h1>FITNESS & <span style="color:yellowgreen"> GYM</span> CLUB </h1> <h3>YOUR HEALTH PARTNER</h3>
+
+<form action="dc.php" method="get">
+<div class="fn">
+
+<label>first name</label>
+<input type="text"  placeholder="first name" required>
+
+<br>
+
+
+
+<label>last name</label>
+<input type="text" placeholder="lastname" required>
+
+
+<br>
+
+
+<label>phone number</label>
+<input type="text" placeholder="phone number" required>
+
+
+
+<br>
+
+
+
+<label>zip code</label>
+<input type="password" placeholder="zip code" minlength="7" maxlength="10" required>
+
+
+
+<br>
+
+
+<label>age</label>
+<input  type="number"name="age" min="18" max="40"step="1">
+
+</div>
+<br>
+<div class="ge">
+
+
+<label>gender</label>
+
+
+<br>
+
+
+<input id="ge" type ="radio" name="gender" value="male"/>
+<label for="ge" >male</label>
+
+
+
+<br>
+
+
+<input id="gen" type ="radio" name="gender" value="female"/>
+<label for="gen">female</label>
+</div>
+
+<br>
+
+<div class="sel">
+<label for="periiod"> theSubscription period </label>
+
+
+
+<select name="per" id="period">
+<option label="1">1_Month</option>
+<option label="2">2_Month</option>
+<option label="3">3_Month</option>
+<option label="4">4_Month</option>
+<option label="5">5_Month</option>
+<option label="6">6_Month</option>
+<option label="7">7_Month</option>
+<option label="8">8_Month</option>
+<option label="9">9_Month</option>
+<option label="10">10_Month</option>
+<option label="11">11_Month</option>
+<option label="12">12_Month</option>
+</select>
+</div>
+
+
+
+<div class="butt">
+<input type="submit" value ="save"> <input type="reset" value="delete">
+</div>
+</body>
+</html>
